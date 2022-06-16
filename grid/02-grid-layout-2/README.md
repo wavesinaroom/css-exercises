@@ -25,3 +25,5 @@ When the browser is stretched wide:
 - The third row is five times larger than the others
 - The rows and columns stretch wider when making the browser window bigger
 - The rows and columns stretch taller when making the browser window smaller
+
+* Already done in grid exercise 1
