@@ -20,6 +20,9 @@
 
 .header {
   background-color: #393f4d;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  grid-column: 1 / 3;
 }
 
 .logo {
@@ -29,6 +32,9 @@
 }
 
 .menu ul {
+  display: grid;
+  grid-template-columns: repeat(4, 25%);
+  list-style-type: none;
 }
 
 .menu ul,
