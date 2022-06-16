@@ -4,10 +4,14 @@ body, html {
 }
 
 .container {
-  text-align: center;
+  box-sizing: border-box;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 25% 75%;
+  grid-template-rows: 12.5% 12.5% 62.5% 12.5%;
   height: 100%;
   padding: 16px;
-  box-sizing: border-box;
+  text-align: center;
 }
 
 .container div {
