@@ -4,6 +4,9 @@
 }
 
 .container {
+  display: grid;
+  grid-gap: 4px;
+  grid-template-columns: 20% 80%;
   text-align: center;
 }
 
@@ -101,5 +104,5 @@
 
 .footer p {
   font-size: 13px;
-  font-weight: normal;  
+  font-weight: normal;
 }
